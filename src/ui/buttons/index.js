@@ -11,9 +11,9 @@ const Button = styled.button`
   font-size: ${props => props.size  || "1rem"};
 `;
 
-const IconButton = styled(Button)`
-  box-shadow: none;
-  border: 1px solid blue;
+const IconButton = styled.button`
+  background-color: transparent;
+  border: none;
 `;
 
 export { Button, IconButton };

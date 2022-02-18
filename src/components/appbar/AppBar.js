@@ -10,7 +10,7 @@ function AppBar(props) {
       <AppBarItems>
         <AppBarItem>Branding</AppBarItem>
         <AppBarItem>
-          <IconButton><IoNotificationsOutline/></IconButton>
+          <IconButton><IoNotificationsOutline size='1.75rem' color="tomato" /></IconButton>
         </AppBarItem>
       </AppBarItems>
     </AppBarStyles>
